@@ -80,22 +80,22 @@ Facilitar o acesso à informação sobre gestão de resíduos, promovendo a cons
 
 📦 Arquitetura do Sistema
 ├── 🎨 View (UI)
-│ ├── home_page.dart
-│ ├── perfil_page.dart
-│ ├── mapa_page.dart
-│ └── pevs_associacoes_page.dart
+│   ├── home_page.dart
+│   ├── perfil_page.dart
+│   ├── mapa_page.dart
+│   └── pevs_associacoes_page.dart
 ├── ⚙️ Controller
-│ ├── mapa_controller.dart
-│ └── data_service.dart
+│   ├── mapa_controller.dart
+│   └── data_service.dart
 ├── 📊 Model
-│ ├── endereco_model.dart
-│ ├── setor_model.dart
-│ ├── pev_model.dart
-│ └── associacao_model.dart
+│   ├── endereco_model.dart
+│   ├── setor_model.dart
+│   ├── pev_model.dart
+│   └── associacao_model.dart
 └── 🔧 Services
-├── kml_data_service.dart
-├── geocoding_service.dart
-└── storage_service.dart
+    ├── kml_data_service.dart
+    ├── geocoding_service.dart
+    └── storage_service.dart
 
 ### **🔄 Fluxo de Dados**
 1. **Interface** → Solicita dados do usuário
@@ -109,28 +109,28 @@ Facilitar o acesso à informação sobre gestão de resíduos, promovendo a cons
 ## 📁 **Estrutura do Projeto**
 
 pg-ambiental-app/
-├── 📄 main.dart # Ponto de entrada
-├── 📄 home_page.dart # Tela principal
-├── 📁 pages/ # Telas do aplicativo
-│ ├── perfil_page.dart # Gestão de endereços
-│ ├── mapa_page.dart # Mapa interativo
-│ └── pevs_associacoes_page.dart # Catálogo PEVs
-├── 📁 services/ # Lógica de negócio
-│ ├── data_service.dart # Gerenciador principal
-│ ├── kml_data_service.dart # Processamento KML
-│ └── mapa_controller.dart # Controle do mapa
-├── 📁 models/ # Estruturas de dados
-│ ├── endereco_model.dart # Modelo de endereço
-│ ├── setor_model.dart # Modelo de setor
-│ ├── pev_model.dart # Modelo de PEV
-│ └── associacao_model.dart # Modelo de associação
-├── 📁 widgets/ # Componentes UI
-│ ├── mapa_widgets.dart # Componentes do mapa
-│ ├── filtros_panel.dart # Painel de filtros
-│ └── legenda_panel.dart # Legenda interativa
-├── 📁 assets/ # Recursos estáticos
-│ └── 📁 images/ # Imagens e ícones
-└── 📄 pubspec.yaml # Dependências Flutter
+├── 📄 main.dart                    # Ponto de entrada
+├── 📄 home_page.dart               # Tela principal
+├── 📁 pages/                       # Telas do aplicativo
+│   ├── perfil_page.dart            # Gestão de endereços
+│   ├── mapa_page.dart              # Mapa interativo
+│   └── pevs_associacoes_page.dart  # Catálogo PEVs
+├── 📁 services/                    # Lógica de negócio
+│   ├── data_service.dart           # Gerenciador principal
+│   ├── kml_data_service.dart       # Processamento KML
+│   └── mapa_controller.dart        # Controle do mapa
+├── 📁 models/                      # Estruturas de dados
+│   ├── endereco_model.dart         # Modelo de endereço
+│   ├── setor_model.dart            # Modelo de setor
+│   ├── pev_model.dart              # Modelo de PEV
+│   └── associacao_model.dart       # Modelo de associação
+├── 📁 widgets/                     # Componentes UI
+│   ├── mapa_widgets.dart           # Componentes do mapa
+│   ├── filtros_panel.dart          # Painel de filtros
+│   └── legenda_panel.dart          # Legenda interativa
+├── 📁 assets/                      # Recursos estáticos
+│   └── 📁 images/                  # Imagens e ícones
+└── 📄 pubspec.yaml                 # Dependências Flutter
 
 ---
 
