@@ -251,6 +251,7 @@ shared_preferences: ^2.2.2
 http: ^1.1.0
 url_launcher: ^6.1.0
 provider: ^6.0.0
+```
 
 ⚠️ Observações
 Este é um protótipo funcional para fins acadêmicos
