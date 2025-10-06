@@ -77,7 +77,7 @@ Facilitar o acesso à informação sobre gestão de resíduos, promovendo a cons
 ## 🏗️ **Arquitetura**
 
 ### **Padrão MVC (Model-View-Controller)**
-
+```plaintext
 📦 Arquitetura do Sistema
 ├── 🎨 View (UI)
 │   ├── home_page.dart
@@ -96,6 +96,7 @@ Facilitar o acesso à informação sobre gestão de resíduos, promovendo a cons
     ├── kml_data_service.dart
     ├── geocoding_service.dart
     └── storage_service.dart
+```
 
 ### **🔄 Fluxo de Dados**
 1. **Interface** → Solicita dados do usuário
@@ -107,7 +108,7 @@ Facilitar o acesso à informação sobre gestão de resíduos, promovendo a cons
 ---
 
 ## 📁 **Estrutura do Projeto**
-
+```plaintext
 pg-ambiental-app/
 ├── 📄 main.dart                    # Ponto de entrada
 ├── 📄 home_page.dart               # Tela principal
@@ -131,7 +132,7 @@ pg-ambiental-app/
 ├── 📁 assets/                      # Recursos estáticos
 │   └── 📁 images/                  # Imagens e ícones
 └── 📄 pubspec.yaml                 # Dependências Flutter
-
+```
 ---
 
 ## 🚀 **Como Usar o APK**
