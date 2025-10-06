@@ -1,0 +1,61 @@
+name: coleta_kml_app
+description: App de coleta domiciliar sustentável
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  logging: ^1.2.0
+  timezone: ^0.10.1
+
+  # Mapas
+  flutter_map: ^8.2.1
+  latlong2: ^0.9.1
+
+  # Geocoding para buscar coordenadas por endereço
+  geocoding: ^4.0.0
+
+  # Geolocalização
+  geolocator: ^14.0.2
+
+  # Requisições HTTP
+  http: ^1.1.0
+
+  # XML parsing
+  xml: ^6.4.0
+
+  # Lints
+  flutter_lints: ^6.0.0
+
+  vector_math: ^2.1.4
+
+  # Lançamento de URLs
+  url_launcher: ^6.1.10
+
+  # Gerenciamento de estado
+  provider: ^6.1.1
+
+  # Persistência de dados
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"  # Mantenha esta versão ou atualize para a mais recente
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/pga.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/pga.png
