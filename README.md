@@ -141,7 +141,7 @@ pg-ambiental-app/
 
 1. **Localize o arquivo APK:**
 
-pg-ambiental-app/build/app/outputs/apk/release/app-release.apk
+pg-ambiental-app/app-release.apk
 
 
 2. **Instale no dispositivo Android:**
